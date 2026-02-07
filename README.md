@@ -61,14 +61,16 @@ To ensure consistency and improve model performance, the following preprocessing
 - To improve model performance, cropping was applied to remove unnecessary background areas and isolate the brain region. This ensures that the neural network focuses only on the most relevant features during training.
 so let me show you an example of what it looked like and how it looks like now:
 
-![crop image MRI](https://github.com/Rana-Alsattari/NeuralEyes/blob/main/cropped%20image.png).
+![crop image MRI](https://github.com/Rana-Alsattari/NeuralEyes/blob/main/cropped%20image.png)
 
 now the brain is the main focus which is exactly what we want before sending the images to the model
 
 ---
 ### Before I split the data I wanted to check all the images so I plotted the Tumor Images and the clean ones 
 
-![Plotting MRI]().
+![Plotting No Tumor MRI](https://github.com/Rana-Alsattari/NeuralEyes/blob/main/no%20tummor%20plotting.png)
+
+![Plotting Tumor MRI](https://github.com/Rana-Alsattari/NeuralEyes/blob/main/plotting%20tumor.png)
 
 ## Data Split
 
@@ -108,14 +110,20 @@ The model was trained while monitoring validation metrics to reduce overfitting.
 
 ## Training Performance
 
-```
-![Accuracy Curve](outputs/accuracy.png)
-![Loss Curve](outputs/loss.png)
-```
+
+![Accuracy Curve](https://github.com/Rana-Alsattari/NeuralEyes/blob/main/Accuracy.png)
+
+see the model improving over time both training and validation accuracy are going up which is a very good sign near the end the training accuracy gets higher than validation which hints at a little overfitting but overall the model learned well and is performing strong
+
+
+![Loss Curve](https://github.com/Rana-Alsattari/NeuralEyes/blob/main/Loss.png)
+
+The loss keeps dropping which means the model is learning and making fewer mistakes over time validation loss also goes down at the beginning but starts moving up a little later which suggests the model is starting to slightly overfit but overall the learning process looks healthy
+
+
 
 The curves illustrate the model's learning progression across training epochs.
 
----
 
 ## Results
 
@@ -128,10 +136,11 @@ Considering the dataset size, the model demonstrates strong classification capab
 
 ## Example Prediction
 
-```
+
 Prediction: Tumor Detected  
 Confidence Score: 87%
-```
+
+
 
 Providing confidence scores improves interpretability beyond a simple binary output.
 
