@@ -1,5 +1,6 @@
-# Neural Eyes
+# Neural Eyes           
 ## Brain Tumor Detection using Convolutional Neural Networks
+
 
 This project presents a deep learning approach for detecting brain tumors from MRI images using a Convolutional Neural Network (CNN) implemented with TensorFlow and Keras.
 
@@ -134,15 +135,29 @@ Considering the dataset size, the model demonstrates strong classification capab
 
 ---
 
-## Example Prediction
+## Testing the model on images he has never seen
+Let's try a tumor image 
 
+![Test1](https://github.com/Rana-Alsattari/NeuralEyes/blob/main/there's%20a%20tumor1.png).
 
-Prediction: Tumor Detected  
-Confidence Score: 87%
+---
+Now no tumor
 
+![Test2](https://github.com/Rana-Alsattari/NeuralEyes/blob/main/no%20tumor%201.png).
 
 
 Providing confidence scores improves interpretability beyond a simple binary output.
+
+---
+
+## Testing from different angles
+
+![Test3](https://github.com/Rana-Alsattari/NeuralEyes/blob/main/no%20tumor%202.png).
+
+![Test4](https://github.com/Rana-Alsattari/NeuralEyes/blob/main/tumor%202.png).
+
+
+What made this even more fun is watching the model improve and actually understand the patterns instead of memorizing images it performed strongly not only on familiar views but also on MRIs taken from completely different angles which shows that it learned how to recognize tumors regardless of position
 
 ---
 
@@ -156,19 +171,13 @@ Providing confidence scores improves interpretability beyond a simple binary out
 
 ---
 
-## Project Structure
+## Quick Access
 
-```
-Brain-Tumor-Detection/
-│
-├── dataset/
-├── images/
-├── notebooks/
-├── models/
-├── outputs/
-└── README.md
-```
-
+-  Dataset → [Open Dataset](https://github.com/Rana-Alsattari/NeuralEyes/tree/main/brain_tumor_dataset)
+-  Augmented Data → [Open Augmented data](https://github.com/Rana-Alsattari/NeuralEyes/tree/main/augmented_data).
+-  Model → [View Model](https://github.com/Rana-Alsattari/NeuralEyes/blob/main/bestmodel.h5).
+-  Notebook → [Check Notebooks](https://github.com/Rana-Alsattari/NeuralEyes/blob/main/NeuralEyes.ipynb)
+-  Images → [See Images](https://github.com/Rana-Alsattari/NeuralEyes/tree/main/images).
 ---
 
 ## Key Learnings
