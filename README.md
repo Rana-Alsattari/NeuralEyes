@@ -178,6 +178,7 @@ What made this even more fun is watching the model improve and actually understa
 -  Model → [View Model](https://github.com/Rana-Alsattari/NeuralEyes/blob/main/bestmodel.h5).
 -  Notebook → [Check Notebooks](https://github.com/Rana-Alsattari/NeuralEyes/blob/main/NeuralEyes.ipynb)
 -  Images → [See Images](https://github.com/Rana-Alsattari/NeuralEyes/tree/main/images).
+-  The Research paper → [Click here](https://github.com/Rana-Alsattari/NeuralEyes/blob/main/NeuralEyes%20CNN%20Brain%20Tumor%20Detection.pdf).
 ---
 
 ## Key Learnings
